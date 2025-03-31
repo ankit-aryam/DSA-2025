@@ -91,6 +91,15 @@ public class LL {
     public int getSize(){
         return size;
     }
+
+    // public void reverseIterate(){
+    //     if(head==null || head.next==null){
+    //         return;
+    //     }
+
+    //     Node currNode = head;
+    //     Node nextNode = head
+    // }
     public static void main(String[] args) {
         LL list = new LL(); 
         list.addFirst("all");
